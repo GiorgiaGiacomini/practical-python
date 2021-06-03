@@ -1,0 +1,44 @@
+Common Operations:
+
+x + y      Add
+x - y      Subtract
+x * y      Multiply
+x / y      Divide
+x // y     Floor Divide
+x % y      Modulo
+x ** y     Power
+abs(x)     Absolute Value
+
+
+import math
+a = math.sqrt(x)
+b = math.sin(x)
+c = math.cos(x)
+d = math.tan(x)
+e = math.log(x)
+
+
+Comparisons
+
+The following comparison / relational operators work with numbers:
+
+x < y      Less than
+x <= y     Less than or equal
+x > y      Greater than
+x >= y     Greater than or equal
+x == y     Equal to
+x != y     Not equal to
+
+if b >= a and b <= c:
+    print('b is between a and c')
+
+if not (b < a or b > c):
+    print('b is still between a and c')
+    
+
+Converting Numbers
+
+The type name can be used to convert values:
+
+a = int(x)    # Convert x to integer
+b = float(x)  # Convert x to float
